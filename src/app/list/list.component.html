@@ -1,0 +1,9 @@
+<p>iCars inventory</p>
+
+<ul *ngIf="cars">
+  <li *ngFor="let car of cars">
+    <p>{{car.car_make}}</p>
+    <p>{{car.model}}</p>
+    <p>{{car.year}}</p>
+  </li>
+</ul>

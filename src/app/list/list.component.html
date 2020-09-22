@@ -1,9 +1,11 @@
 <p>iCars inventory</p>
 
-<ul *ngIf="cars">
-  <li *ngFor="let car of cars">
-    <p>{{car.car_make}}</p>
-    <p>{{car.model}}</p>
-    <p>{{car.year}}</p>
-  </li>
-</ul>
+<div class="container mb-3">
+  <div class="row card-row">
+    <div *ngFor="let car of cars" class="col-12 mt-5">
+      <p>{{car.car_make}}</p>
+      <p>{{car.model}}</p>
+      <p>{{car.year}}</p>
+    </div>
+  </div>
+</div>

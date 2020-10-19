@@ -1,0 +1,32 @@
+.carthing {
+   display: block;
+   background-color: rgb(124, 191, 193);
+   border-radius: 15px;
+   text-align: center;
+ }
+
+.image {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px
+}
+
+// .holder {
+//   background-color: rgb(57, 225, 228);
+//   border-bottom-left-radius: 15px;
+//   border-bottom-right-radius: 15px;
+// }
+
+.details {
+  position: relative;
+  top: 13px;
+}
+
+.price {
+  font-size: 2em;
+  position: relative;
+  bottom: 10px;
+}
+
+.thingy {
+  margin: 0;
+}
